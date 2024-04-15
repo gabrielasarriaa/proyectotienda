@@ -28,10 +28,30 @@
 .col{
     font-family: georgia;
 }
-#body-home{
+#body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(251,247,251,1) 0%, rgba(251,247,250,1) 0%, rgba(228,193,179,1) 52%, rgba(251,246,249,1) 100%, rgba(241,222,179,1) 100%, rgba(233,148,148,0.9500175070028011) 100%);
 }
-#aliados{
-    
+.baner-2{
+    font-family: georgia;
+    background-image: url("./img/empeados1920x1080_i.jpg");
+    padding: 25%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+/*para crear cotina cortina conocida como ref hija pseudo clase*/
+.baner-2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0 ;
+    left: 0 ;
+    opacity: 0.5;
+    z-index: -1 ;
 }

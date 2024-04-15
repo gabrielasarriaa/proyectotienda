@@ -166,7 +166,7 @@ let empleados = Array(
     {
         id:17,
         nombre:"Raul Garcia Restrepo",
-        cargo:"marketin",
+        cargo:"marketing",
         telefono:"3215775122",
         correo:"RaulGarciaRestrepo@gmail.com",
         salario:6000000,
